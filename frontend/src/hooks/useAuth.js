@@ -1,6 +1,6 @@
-import { useAuthContext } from "./context/AuthContext";
+import { useAuthContext } from "../context/AuthContext";
 
-export function useAuth() {
+function useAuth() {
   return useAuthContext();
 }
 
